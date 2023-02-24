@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Gems-for-the-Heart/static/css/main.e3ae7770.css",
+    "main.js": "/Gems-for-the-Heart/static/js/main.440a611f.js",
+    "static/js/787.e517b7b9.chunk.js": "/Gems-for-the-Heart/static/js/787.e517b7b9.chunk.js",
+    "static/media/uthmani-font.ttf": "/Gems-for-the-Heart/static/media/uthmani-font.792e51af6f5013a63411.ttf",
+    "index.html": "/Gems-for-the-Heart/index.html",
+    "main.e3ae7770.css.map": "/Gems-for-the-Heart/static/css/main.e3ae7770.css.map",
+    "main.440a611f.js.map": "/Gems-for-the-Heart/static/js/main.440a611f.js.map",
+    "787.e517b7b9.chunk.js.map": "/Gems-for-the-Heart/static/js/787.e517b7b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ae7770.css",
+    "static/js/main.440a611f.js"
+  ]
+}
