@@ -1,0 +1,131 @@
+.mainContainer {
+  display: flex;
+  margin: 0rem 1rem;
+}
+
+.actualHadithContainer {
+  font-family: "Font Name", Playfair Display;
+  background-color: var(--secondary);
+  border: var(--accent);
+  margin: 10px 3px;
+  width: 100%;
+}
+
+.hadithTextContainers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  padding: 10px 15px 0;
+}
+
+.englishcontainer,
+.arabic_hadith_full {
+  position: relative;
+}
+
+.english_hadith_full {
+  font-size: 24px;
+}
+
+.hadith_narrated {
+  font-size: clamp(18px, 1vw + 0.1rem, 22px);
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.text_details {
+  font-size: clamp(16px, 1vw + 2px, 20px);
+  color: #08081a;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.clear {
+  clear: both;
+}
+
+.englishcontainer,
+.arabic_hadith_full {
+  position: relative;
+}
+.arabic_hadith_full {
+  font-family: uthmani, /* Traditional Arabic,*/ Trebuchet MS, Arial, Helvetica;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+@media (max-width: 570px) {
+  .mainContainer {
+    display: block;
+    margin: 1rem auto;
+  }
+  .single_hadith .actualHadithContainer {
+    margin-bottom: 10px;
+  }
+
+  .actualHadithContainer {
+    box-sizing: border-box;
+    margin: 0 0 65px 0;
+  }
+  .actualHadithContainer,
+  .chapter {
+    margin: 0px 0 10px 0;
+  }
+
+  .hadithTextContainers {
+    overflow: hidden;
+  }
+  .englishcontainer,
+  .english_hadith_full,
+  .arabic_hadith_full {
+    width: auto;
+  }
+
+  .text_details {
+    font-size: 16px;
+  }
+}
+
+.card {
+  font-family: "Font Name", Playfair Display;
+  background-color: var(--secondary);
+  border: var(--accent);
+  margin: 1rem auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .narrator {
+    font-weight: 700;
+    color: var(--primary);
+    background-color: var(--accent);
+  }
+}
+
+@media (max-width: 376px) {
+  .hadithTextContainers {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hadithNum {
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: auto;
+  color: black;
+  text-align: right;
+  display: block;
+  width: fit-content;
+}
+
+.copyClipboardBtn {
+  cursor: pointer;
+  color: var(--primary);
+  font-weight: 700;
+  background-color: var(--accent);
+}
